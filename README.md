@@ -1,4 +1,4 @@
-# BR Lirik v0.1.1 Prototype
+# BR Lirik v0.2.0 Prototype
 
 Transparent live-lyrics FFGL source for Resolume Arena on Windows.
 
@@ -22,13 +22,18 @@ The width of the text box controls word wrapping. One long input line can theref
 - Preview label and cue number
 - Previous, Next, Go To, Reset, and preview visibility
 - Cut, Fade, Roll Up + Fade, and Slide Left + Fade
+- Fifteen transition choices including directional slides, zoom, pop, wipe, blur, and Stacked Next Preview
+- One-click transitions continue to completion; optional navigation lock prevents accidental double Next
 - Slow Floating and Rock Shake motion
 - Installed Windows fonts plus font-name search
 - Word wrap and automatic font fitting
+- Two-colour font gradient with four directions
 - Text fill, stroke, and stroke-only style
 - Editable drop shadow and glow
 - Off, fill, fill + stroke, and stroke-only rounded boxes
 - Transparent premultiplied output
+- Direct `.txt` / raw-text URL import through the lyric editor
+- Automatic removal of full bracket-label lines such as `[CHORUS]`, `[VERSE 1]`, and `[BRIDGE]`
 
 ## GitHub Actions build
 

@@ -38,7 +38,7 @@ private:
   const std::string credit_="Effect by Belajar Resolume";
   float role_=0.0f;
   unsigned int viewportWidth_=1920,viewportHeight_=1080;
-  unsigned int currentTexture_=0,previousTexture_=0;
+  unsigned int currentTexture_=0,previousTexture_=0,nextTexture_=0;
   unsigned int textureWidth_=1,textureHeight_=1;
   unsigned long long seenRevision_=0,seenStyleRevision_=0;
   bool transitionActive_=false;
@@ -47,7 +47,7 @@ private:
   unsigned long long gdiplusToken_=0;
 
   std::atomic<HWND> editorWindow_{nullptr};
-  HWND editorTextBox_=nullptr;
+  HWND editorTextBox_=nullptr,editorUrlBox_=nullptr;
   std::atomic<bool> editorRunning_{false},editorStopRequested_{false};
   std::thread editorThread_;
   ffglex::FFGLShader shader_;

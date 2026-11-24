@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.21)
-project(BRLirik VERSION 0.1.1 LANGUAGES CXX)
+project(BRLirik VERSION 0.2.0 LANGUAGES CXX)
 
 if(NOT WIN32)
   message(FATAL_ERROR "BR Lirik currently supports Windows only")
@@ -30,7 +30,7 @@ target_compile_definitions(BRLirik PRIVATE NOMINMAX)
 # BRLirik.cpp includes FFGLSDK.h, whose public FFGL headers include
 # GL/glew.h. Link GLEW directly so its include directory is available while
 # compiling this target as well as while linking the SDK.
-target_link_libraries(BRLirik PRIVATE ffgl::sdk GLEW::GLEW gdiplus ole32 comdlg32 opengl32)
+target_link_libraries(BRLirik PRIVATE ffgl::sdk GLEW::GLEW gdiplus ole32 comdlg32 winhttp opengl32)
 target_include_directories(BRLirik PRIVATE ${ffgl_SOURCE_DIR}/source/lib)
 
 set_target_properties(BRLirik PROPERTIES
