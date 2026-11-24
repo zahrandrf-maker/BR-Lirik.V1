@@ -47,7 +47,7 @@ private:
   unsigned long long gdiplusToken_=0;
 
   std::atomic<HWND> editorWindow_{nullptr};
-  HWND editorTextBox_=nullptr,editorUrlBox_=nullptr;
+  HWND editorTextBox_=nullptr;
   std::atomic<bool> editorRunning_{false},editorStopRequested_{false};
   std::thread editorThread_;
   ffglex::FFGLShader shader_;
