@@ -1,4 +1,4 @@
-# BR Lirik v0.3.0 — Text + PNG Lyrics
+# BR Lirik v0.3.1 — Text + PNG Lyrics
 
 Transparent live-lyrics FFGL source for Resolume Arena on Windows.
 
@@ -28,7 +28,8 @@ The width of the text box controls word wrapping. One long input line can theref
 - Previous, Next, Go To, Reset, and preview visibility
 - Optional **Blank First & End Lyrics** cues for a clean opening and ending
 - Cut, Fade, Roll Up + Fade, and Slide Left + Fade
-- Fifteen transition choices including directional slides, zoom, pop, wipe, blur, and Stacked Next Preview
+- Sixteen transition choices including directional slides, zoom, pop, wipe, blur, Stacked Next Preview, and Typewriter
+- Typewriter transition for text lyrics; typing speed follows Transition Duration
 - One-click transitions continue to completion; optional navigation lock prevents accidental double Next
 - Slow Floating and Rock Shake motion
 - Installed Windows fonts plus font-name search
