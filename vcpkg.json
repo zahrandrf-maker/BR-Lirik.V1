@@ -1,0 +1,7 @@
+{
+  "name": "br-lirik",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "glew"
+  ]
+}
