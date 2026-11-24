@@ -1,4 +1,4 @@
-# BR Lirik v0.1.0 Prototype
+# BR Lirik v0.1.1 Prototype
 
 Transparent live-lyrics FFGL source for Resolume Arena on Windows.
 
